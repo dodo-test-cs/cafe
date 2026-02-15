@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Café Nova</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gail's Grill & Bakery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- 3D BACKGROUND -->
-<canvas id="bg"></canvas>
-
-<!-- NAVBAR -->
-<nav class="navbar">
-  <div class="logo">Café Nova</div>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#why">Why Us</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="overlay"></div>
-  <div class="hero-content">
-    <h1>Where Coffee Meets Vibes ☕</h1>
-    <p>Great coffee • Trendy atmosphere • Late-night bites</p>
-    <button>Explore Menu</button>
+<header class="hero">
+  <div class="overlay">
+    <h1>Gail's Grill & Bakery</h1>
+    <p>Fresh Breakfast • Coffee • Comfort Food</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn">View Menu</a>
+      <a href="tel:+18075831212" class="btn secondary">Call Now</a>
+    </div>
   </div>
-</section>
+</header>
 
-<!-- ABOUT -->
-<section id="about" class="section glass">
-  <h2>About Café Nova</h2>
+<section class="info">
+  <h2>About Us</h2>
   <p>
-    Café Nova is a modern café for students and professionals.
-    Great coffee, desserts, vegan options, and late-night food.
+    A cozy local favorite in Armstrong Station serving fresh breakfast,
+    coffee, and classic grill dishes. Perfect for a quick visit or relaxed dine-in.
   </p>
-</section>
 
-<!-- MENU -->
-<section id="menu" class="section">
-  <h2>Menu Highlights</h2>
-  <div class="menu-grid">
-    <div class="menu-card">Veg Momos – ₹80</div>
-    <div class="menu-card">Paneer Wrap – ₹130</div>
-    <div class="menu-card">Chicken Fried Rice – ₹149</div>
+  <div class="details">
+    <div><strong>⏰ Opens:</strong> 7:00 AM</div>
+    <div><strong>💲 Price:</strong> $20–30 per person</div>
+    <div><strong>📍 Address:</strong> 1–5 King St, Armstrong Station, ON</div>
+    <div><strong>📞 Phone:</strong> +1 807-583-1212</div>
   </div>
 </section>
 
-<!-- WHY US -->
-<section id="why" class="section glass">
-  <h2>Why Choose Us</h2>
-  <p>Great coffee • Trendy vibe • Student-friendly • Late-night food</p>
+<section id="menu" class="menu">
+  <h2>Menu Highlights</h2>
+
+  <div class="menu-category">
+    <h3>Soups & Salads</h3>
+    <ul>
+      <li>Homemade Soup of the Day</li>
+      <li>Fresh Garden Salad</li>
+      <li>Caesar Salad</li>
+    </ul>
+  </div>
+
+  <div class="menu-category">
+    <h3>Sandwiches</h3>
+    <ul>
+      <li>Grilled Chicken Breast</li>
+      <li>Clubhouse Sandwich</li>
+      <li>BLT</li>
+      <li>Hamburger</li>
+    </ul>
+  </div>
+
+  <div class="menu-category">
+    <h3>Sides</h3>
+    <ul>
+      <li>French Fries</li>
+      <li>Onion Rings</li>
+      <li>Coleslaw</li>
+      <li>Soup</li>
+    </ul>
+  </div>
 </section>
 
-<!-- FOOTER -->
-<footer id="contact">
-  <p>© 2026 Café Nova</p>
-</footer>
+<section class="amenities">
+  <h2>Why Visit Us?</h2>
+  <ul>
+    <li>✔ Wheelchair Accessible</li>
+    <li>✔ Dine-In & Takeaway</li>
+    <li>✔ Coffee & Breakfast</li>
+    <li>✔ Restroom Available</li>
+    <li>✔ Free Parking</li>
+    <li>✔ Credit, Debit & NFC Payments</li>
+  </ul>
+</section>
 
-<!-- THREE.JS -->
-<script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
-<script src="script.js"></script>
+<section class="location">
+  <h2>Find Us</h2>
+  <p>Armstrong Station, Ontario</p>
+  <a 
+    href="https://www.google.com/maps/search/?api=1&query=8X25+8H+Armstrong+Station+Ontario"
+    target="_blank"
+    class="btn">
+    Get Directions
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Gail's Grill & Bakery</p>
+</footer>
 
 </body>
 </html>
